@@ -1,0 +1,4 @@
+wdys/blueprints/language/models/entity/
+wdys/blueprints/language/models/sentiment/
+.env
+__pycache__
