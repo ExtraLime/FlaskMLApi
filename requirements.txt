@@ -1,0 +1,8 @@
+Flask
+werkzeug==0.14.1
+gunicorn==19.4.5
+torch
+transformers
+pandas
+numpy
+langdetect
