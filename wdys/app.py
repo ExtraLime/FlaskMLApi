@@ -1,8 +1,4 @@
-import os, sys
-current = os.path.dirname(os.path.realpath(__file__))
-parent = os.path.dirname(current)
-sys.path.append(parent)
-from flask import Flask, jsonify, request
+from flask import Flask
 from wdys.blueprints.language import language
 
 
@@ -23,6 +19,7 @@ def create_app(settings_override=None):
     app.register_blueprint(language)
 
     return app
+
 
 if __name__ == '__main__':
     app = create_app()

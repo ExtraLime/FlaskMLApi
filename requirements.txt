@@ -6,3 +6,5 @@ transformers
 pandas
 numpy
 langdetect
+pytest
+flake8
